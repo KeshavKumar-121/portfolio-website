@@ -1,5 +1,5 @@
-// import movix from "../image/movix-img.jpg"
-// import ecommerce from "../image/ecommerce-image.jpg"
+import bakery from "../image/bakery_shop.jpg"
+import plan_with_keshav from "../image/planWithKeshav.jpg"
 import studynotion from "../image/study_notion.jpg"
 import naveen from "../image/naveen_image.jpg"
 // import food_delivery from "../image/food_delivery.jpg"
@@ -12,14 +12,11 @@ export const Bio = {
     "Programmer",
   ],
   description:
-  //   "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  // github: "https://github.com/naveenShekharGit",
   "Proactive Computer Science student with practical experience in project development and execution. Successfully completed various online projects. Committed to continuous learning and staying current with the latest technological advancements, driven by a passion for innovation and excellence.",
   github:"https://github.com/KeshavKumar-121",
   resume:
     "https://drive.google.com/file/d/1Zn0HkatOpRhSGVIt_l44dFKGFHXFTL0B/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/keshav-kumar-096b43310/",
-  // github: "https://github.com/naveenShekharGit",
   github:"https://github.com/KeshavKumar-121",
   leetcode: "https://leetcode.com/u/keshav_1008/",
   gfg:"https://www.geeksforgeeks.org/user/keshav21scktzm/",
@@ -247,60 +244,23 @@ export const education = [
 ];
 
 export const projects = [
-  // {
-  //   id: 9,
-  //   title: "Movix",
-  //   date: "Jun 2023 - Jul 2023",
-  //   // description:
-  //   //   "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-  //   description : `
-  //     Developed a user-friendly interface with smooth transitions to capture user attention
-  //   Implemented search functionality for movies, including trailers for both movies and TV shows
-  //   Integrated genre and sorting filters to enhance user experience
-  //   Designed a fully responsive website optimized for both mobile and desktop viewing
-  //   Ensured proper data management by calling APIs from the TMDB backend
-  //   Utilized SCSS for styling, leveraging nested CSS and mixins for maintainable and scalable code.`,
-  //   image: movix,
-  //   tags: [
-  //     "HTML",
-  //     "CSS",
-  //     "SCSS",
-  //     "React Js",
-  //     "Redux",
-  //     "Mixins",
-
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/naveenShekharGit/Movix_app",
-  //   webapp: "https://movix-app-fawn.vercel.app/",
-  // },
-  // {
-  //   id: 0,
-  //   title: "Podstream",
-  //   date: "Apr 2023 - May 2023",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Podstream",
-  //   webapp: "https://podstream.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
+  {
+    id: 0,
+    title: "Bakery Shop",
+    date: "Aug-2023",
+    description : `
+      Developed a visually appealing and user-friendly bakery shop website using HTML, CSS, and JavaScript. 
+      The site features an intuitive layout that showcases the bakery's products, including detailed descriptions and pricing.
+      This project demonstrates my ability to create functional and aesthetically pleasing web pages while focusing on user-centric design.`,
+    image: bakery,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/KeshavKumar-121/Bakery_Shop",
+  },
 //   {
 //     id: 1,
 //     title: "Ecommerce",
@@ -332,7 +292,7 @@ export const projects = [
   {
     id: 2,
     title: "Study Notion",
-    date: "Sep 2023 - Dec 2023",
+    date: "Oct 2023 - Dec 2023",
     description:
       `I developed a dynamic educational technology platform using ReactJS, catering to students, teachers, and admins. Leveraging the Redux Toolkit for state management, I ensured a seamless user experience across the application. RESTful APIs were created using ExpressJS to facilitate efficient communication between the frontend and backend.
 
@@ -360,102 +320,20 @@ The platform allows students to buy and access courses, while teachers can creat
       },
     ],
   },
-//   {
-//     id: 3,
-//     title: "Food Delivery",
-//     date: "Aug 2021 - Sep 2022",
-//     description:
-//       `Developed a comprehensive full-stack food ordering website/app using ReactJS, MongoDB, Express, and NodeJS. This project includes a user-friendly frontend, a robust admin panel, and an efficient backend server. Users can create accounts, log in, and browse a variety of food items. The shopping cart functionality allows users to add items, manage their cart, and place orders seamlessly. Integrated Stripe for secure and reliable online payments, ensuring a smooth transaction process.
-
-// On the user side, the platform provides an intuitive interface for browsing menus, adding items to the cart, and tracking order statuses. Users can view order history and receive updates on their order progress.
-
-// The admin panel is designed for efficient management of the food delivery service. Admins can manage user accounts, monitor orders, and update order statuses in real-time. They can also manage the menu, adding or removing food items as needed. This ensures that the platform remains up-to-date and meets user demands effectively.
-
-// This project demonstrates my ability to build scalable, secure, and user-friendly web applications. It showcases my expertise in full-stack development, integrating various technologies to create a cohesive and functional food ordering system.`,
-//     image: food_delivery,
-//     tags: ["React js", "Contex API", "Node js", "Express js", "MongoDB", "Stripe Payment", "Cloudinary"],
-//     category: "web app",
-//     github: "https://github.com/naveenShekharGit/mearn-food-delivery-app",
-//     webapp: "",
-//   },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Whatsapp Clone",
-  //   date: "Jul 2021",
-  //   description:
-  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-  //   webapp: "https://whatsapp-clone-rishav.web.app",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Breaking Bad",
-  //   date: "Jun 2021",
-  //   description:
-  //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-  //   image:
-  //     "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-  //   tags: ["React Js", "API", "Axios", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Breaking-Bad",
-  //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
+  {
+    id: 3,
+    title: "Plan With Keshav",
+    date: "Sep 2023 - Oct 2023",
+    description:
+      `"Plan With Keshav" is a dynamic tourism website designed to inspire and assist travelers 
+      in planning their next adventure. Built with React for a smooth and interactive user experience, 
+      and styled with Tailwind CSS for a modern, responsive design, the website features destination highlights, 
+      travel tips, and itinerary suggestions.`,
+    image: plan_with_keshav,
+    tags: ["React js", "Tailwind CSS"],
+    category: "web app",
+    github: "https://github.com/KeshavKumar-121/plan-with-keshav",
+  },
 ];
 
 // export const TimeLineData = [
