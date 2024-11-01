@@ -15,7 +15,7 @@ export const Bio = {
   "Proactive Computer Science student with practical experience in project development and execution. Successfully completed various online projects. Committed to continuous learning and staying current with the latest technological advancements, driven by a passion for innovation and excellence.",
   github:"https://github.com/KeshavKumar-121",
   resume:
-    "https://drive.google.com/file/d/1Zn0HkatOpRhSGVIt_l44dFKGFHXFTL0B/view?usp=drivesdk",
+    "https://drive.google.com/file/d/16R9620UnqrNQqJON5A4QDB_BiD2fjoVf/view?usp=drivesdk ",
   linkedin: "https://www.linkedin.com/in/keshav-kumar-096b43310/",
   github:"https://github.com/KeshavKumar-121",
   leetcode: "https://leetcode.com/u/keshav_1008/",
@@ -244,23 +244,7 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 0,
-    title: "Bakery Shop",
-    date: "Aug-2023",
-    description : `
-      Developed a visually appealing and user-friendly bakery shop website using HTML, CSS, and JavaScript. 
-      The site features an intuitive layout that showcases the bakery's products, including detailed descriptions and pricing.
-      This project demonstrates my ability to create functional and aesthetically pleasing web pages while focusing on user-centric design.`,
-    image: bakery,
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    category: "web app",
-    github: "https://github.com/KeshavKumar-121/Bakery_Shop",
-  },
+  
 //   {
 //     id: 1,
 //     title: "Ecommerce",
@@ -290,7 +274,7 @@ export const projects = [
 //     webapp: "https://mern-e-commerce-hup2.vercel.app/",
 //   },
   {
-    id: 2,
+    id: 1,
     title: "Study Notion",
     date: "Oct 2023 - Dec 2023",
     description:
@@ -321,7 +305,7 @@ The platform allows students to buy and access courses, while teachers can creat
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: "Plan With Keshav",
     date: "Sep 2023 - Oct 2023",
     description:
@@ -333,6 +317,23 @@ The platform allows students to buy and access courses, while teachers can creat
     tags: ["React js", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/KeshavKumar-121/plan-with-keshav",
+  },
+  {
+    id: 3,
+    title: "Bakery Shop",
+    date: "Aug-2023",
+    description : `
+      Developed a visually appealing and user-friendly bakery shop website using HTML, CSS, and JavaScript. 
+      The site features an intuitive layout that showcases the bakery's products, including detailed descriptions and pricing.
+      This project demonstrates my ability to create functional and aesthetically pleasing web pages while focusing on user-centric design.`,
+    image: bakery,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/KeshavKumar-121/Bakery_Shop",
   },
 ];
 
